@@ -1,0 +1,27 @@
+Feature: E-bay Login Feature
+@Login
+Scenario Outline: Check Login Functionality
+
+Given user is already on Login Page
+When Check Customer Login Page title valid 
+Then Check Customer Login with valid Data"<username>" and "<password>"
+Then Check Customer Login with invalid Data"<username1>" and "<password1>"
+
+Examples:
+|username	|	password	| username1	| 	password1	|
+|abc 	 	|  		abc123	|	111		|	222			|
+|def 	 	| 	 def123		|	333		|	888			|
+
+@Login
+Scenario: Check Login with Data Tables
+
+Given user is already on Login Page
+When Check Customer Login Page title valid 
+Then Check Customer Login with valid Data
+|name		|		passw			|
+|Tom 	 	|  		Cruise			|
+|Sean 	 	|  		Harry123		|
+Then Check Customer Login with invalid Data
+|name1		|	passw1		|
+|	a111		|	a222			|
+|	a555		|	a666			|

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;RegisterLoginTests.java&apos; to &apos;com.qa.ecommerce/src/main/java/stepdef1&apos;&#x0D;&#x0A;- Original project: &apos;com.qa.ecommerce&apos;&#x0D;&#x0A;- Destination element: &apos;com.qa.ecommerce/src/main/java/stepdef1&apos;&#x0D;&#x0A;- Original element: &apos;StepDefinitions.RegisterLoginTests.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;stepdef1" element1="/src\/main\/java&lt;StepDefinitions{RegisterLoginTests.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1556764849579" units="1" version="1.0"/>
+</session>

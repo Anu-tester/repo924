@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20620" started-at="2019-09-18T04:34:44Z" finished-at="2019-09-18T04:35:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20620" started-at="2019-09-18T04:34:44Z" finished-at="2019-09-18T04:35:05Z">
+      <class name="customer_api_test.appium_project.firesttest">
+        <test-method status="PASS" signature="basictests()[pri:0, instance:customer_api_test.appium_project.firesttest@73846619]" name="basictests" duration-ms="20592" started-at="2019-09-17T21:34:44Z" finished-at="2019-09-17T21:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basictests -->
+      </class> <!-- customer_api_test.appium_project.firesttest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

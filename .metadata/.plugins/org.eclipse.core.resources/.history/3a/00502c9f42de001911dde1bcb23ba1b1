@@ -1,0 +1,5 @@
+package com.qa.ecommerce;
+
+public class ExtentReporterNG {
+
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Check Login Functionality",
+        "description": "",
+        "id": "e-bay-login-feature;check-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "user is already on Login Page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "E-bay Login Feature",
+    "description": "",
+    "id": "e-bay-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Anu/Ecommercenew/CucumberBDDFramework/src/main/java/Features/login.feature"
+  }
+]

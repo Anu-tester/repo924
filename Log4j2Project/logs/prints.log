@@ -1,0 +1,11 @@
+13:29:52.463 [main] INFO  com.qa.testcases.Itestlistenertest - Test Case StartedperformSomeTask
+13:29:52.491 [main] TRACE com.qa.testcases.Log4J2PropertiesConf - This is trace message
+13:29:52.492 [main] DEBUG com.qa.testcases.Log4J2PropertiesConf - This is a debug message
+13:29:52.492 [main] INFO  com.qa.testcases.Log4J2PropertiesConf - This is an info message
+13:29:52.492 [main] WARN  com.qa.testcases.Log4J2PropertiesConf - This is a warn message
+13:29:52.492 [main] ERROR com.qa.testcases.Log4J2PropertiesConf - This is an error message
+13:29:52.492 [main] FATAL com.qa.testcases.Log4J2PropertiesConf - This is a fatal message
+13:29:52.495 [main] INFO  com.qa.testcases.Itestlistenertest - Test case Done
+13:29:52.511 [main] INFO  com.qa.testcases.Itestlistenertest - Test Case Starteddynamicdropdown
+13:30:07.841 [main] ERROR com.qa.testcases.Log4J2PropertiesConf - C:\Users\Anu\Ecommercenew\Log4j2Project/screenshots/dynamicdropdown.pngFri Sep 13 13:30:07 PDT 2019
+13:30:07.958 [main] DEBUG com.qa.testcases.Itestlistenertest - Test

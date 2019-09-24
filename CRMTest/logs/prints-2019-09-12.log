@@ -1,0 +1,7 @@
+09:15:25.213 [main] INFO  com.crm.qa.testcases.LoginPageTest - Initializing driver
+09:15:38.143 [main] DEBUG com.crm.qa.testcases.LoginPageTest - com.crm.qa.pages.LoginPage@40238dd0
+21:20:07.011 [main] TRACE com.crm.qa.testcases.LoginPageTest - Trace logger
+21:20:50.316 [main] TRACE com.crm.qa.testcases.LoginPageTest - Trace logger
+21:23:38.479 [main] TRACE com.crm.qa.testcases.LoginPageTest - Trace logger
+21:24:22.438 [main] TRACE com.crm.qa.testcases.LoginPageTest - Trace logger
+21:25:07.070 [main] TRACE com.crm.qa.testcases.LoginPageTest - Trace logger

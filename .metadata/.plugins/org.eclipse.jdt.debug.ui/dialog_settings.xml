@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=CRMTest/C:\/Users\/Anu\/.m2\/repository\/org\/apache-extras\/beanshell\/bsh\/2.0b6\/bsh-2.0b6.jar&amp;lt;bsh.util(AWTConsole.class[AWTConsole&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=appium_project/src\/main\/java&amp;lt;customer_api_test.appium_project{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=appium_project/C:\/Users\/Anu\/.m2\/repository\/org\/testng\/testng\/6.11\/testng-6.11.jar&amp;lt;org.testng(Converter.class[Converter&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="671" key="DIALOG_X_ORIGIN"/>
+			<item value="188" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,86 @@
+package com.Apex.RestAPI;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpPut;
+import org.apache.http.util.EntityUtils;
+import org.json.JSONObject;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class PutApiTest extends BaseClass {
+	BaseClass testBase;
+	String serviceUrl;
+	String apiUrl;
+	String url;
+	String id;
+	RestClient restClient;
+	CloseableHttpResponse closebaleHttpResponse;
+
+	@BeforeMethod
+	public void setUp() throws ClientProtocolException, IOException {
+		testBase = new BaseClass();
+		serviceUrl = prop.getProperty("URL");
+		apiUrl = prop.getProperty("serviceURL");
+		id = prop.getProperty("id");
+		// https://reqres.in/api/users
+
+		url = serviceUrl + apiUrl;
+		// +id;
+
+	}
+
+	@Test
+	public void putAPITest() throws JsonGenerationException, JsonMappingException, IOException {
+		restClient = new RestClient();
+		HashMap<String, String> headerMap = new HashMap<String, String>();
+		headerMap.put("Content-Type", "application/json");
+
+		// jackson API:
+		ObjectMapper mapper = new ObjectMapper();
+		Users users = new Users("sample", "QA"); // expected users obejct
+
+		// object to json file:
+		mapper.writeValue(
+				new File("C:\\Users\\Anu\\Ecommercenew" + "\\RestAPI\\src\\main\\java\\com\\Apex\\RestAPI\\users.json"),
+				users);
+		// https://reqres.in/api/users
+
+		// java object to json in String:
+		String usersJsonString = mapper.writeValueAsString(users);
+		System.out.println(usersJsonString);
+
+		closebaleHttpResponse = restClient.put(url, usersJsonString, headerMap); // call the API
+		
+		// validate response from API:
+		// 1. status code:
+		int statusCode = closebaleHttpResponse.getStatusLine().getStatusCode();
+		Assert.assertEquals(statusCode, testBase.RESPONSE_STATUS_CODE_200);
+
+		// 2. JsonString:
+		String responseString = EntityUtils.toString(closebaleHttpResponse.getEntity(), "UTF-8");
+	//	closebaleHttpResponse.setEntity(arg0);
+		JSONObject responseJson = new JSONObject(responseString);
+		System.out.println("The response from API is:" + responseJson);
+
+		// json to java object:
+//		Users usersResObj = mapper.readValue(responseString, Users.class); // actual users object
+//		System.out.println("printing userresobj  " + usersResObj);
+//
+//		Assert.assertTrue(users.getName().equals(usersResObj.getName()));
+//
+//		Assert.assertTrue(users.getJob().equals(usersResObj.getJob()));
+//
+//		System.out.println(usersResObj.getId());
+//		System.out.println(usersResObj.getCreatedAt());
+	}
+}

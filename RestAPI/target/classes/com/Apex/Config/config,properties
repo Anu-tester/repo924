@@ -1,0 +1,13 @@
+URL = https://reqres.in
+serviceURL =/api/users
+id=1
+
+#URL1 = http://www.thomas-bayer.com/sqlrest
+#serviceURL1 = /CUSTOMER/635
+#id= http://www14.software.ibm.com/webapp/wsbroker
+#/redirect?version=phil&product=was-express-iseries&topic=twbs_jaxwsdeploydescriptor
+#File name: twbs_jaxwsdeploydescriptor.html
+
+#id=http://www.example.com/xml/tempconvert.asmx
+
+

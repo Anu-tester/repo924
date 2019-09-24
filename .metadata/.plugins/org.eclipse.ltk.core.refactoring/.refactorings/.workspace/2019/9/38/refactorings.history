@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;appium&apos; to &apos;appium_POM&apos;" description="Rename resource &apos;appium&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/appium" name="appium_POM" stamp="1568654167628" updateReferences="true"/>
+</session>
